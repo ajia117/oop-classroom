@@ -1,7 +1,7 @@
 const expect = require('chai').expect
 const Student = require('../src').Student
 
-xdescribe('Student', function () {
+describe('Student', function () {
   before(function () {
     this.properties = [ 'Shelly Vasquez', 44 ]
   })

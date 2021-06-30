@@ -1,7 +1,7 @@
 const expect = require('chai').expect
 const Marker = require('../src').Marker
 
-xdescribe('Marker', function () {
+describe('Marker', function () {
   before(function () {
     this.properties = [ 'medium', 'pink', 100 ]
   })

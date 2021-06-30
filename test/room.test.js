@@ -1,7 +1,7 @@
 const expect = require('chai').expect
 const Room = require('../src').Room
 
-xdescribe('Room', function () {
+describe('Room', function () {
   before(function () {
     this.properties = [ 'Hogwarts', 'a magical school' ]
   })
